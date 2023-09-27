@@ -10,11 +10,39 @@
             border-color: darkred;
             color: aquamarine;
         }
+
+        .fruitBox {
+			color: red;
+			background-color: lightcoral;
+			border: 2px	solid lightblue;
+			padding: 5px;
+			transition: 2000ms;
+		}
+
+		.container {
+			display: flex;
+            /* flex-direction: row-reverse; */
+            justify-content: space-between;
+			flex-wrap: wrap;
+            border: 1px dotted red;
+            text-align:justify;
+            align-content:stretch;
+            height: 70px;
+
+		}
     </style>
 </head>
 <body>
-	<div class ="welcomeText">
-        Howdy - Welcome to my website
+	<div class ="container">
+        <div class='fruitBox'>
+            Banana
+        </div>
+        <div class='fruitBox'>
+            Apple
+        </div>
+        <div class='fruitBox'>
+            Grape
+        </div>
     </div>
 </body>
 </html>
