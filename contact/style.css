@@ -23,13 +23,17 @@ a:visited {
     z-index: 100;
 }
 .navBar-Container {
-    width: 13vw;
+    width: auto;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
     height: 10vh;
     line-height: 10vh;
     display: flex;
     justify-content: center;
     align-content: center;
     border-left: 5px solid aquamarine;
+    color: black;
 }
 #navBar-nameTag {
     padding: 10vw;
@@ -38,7 +42,7 @@ a:visited {
 .navBar-Container:hover {
     background-color: aqua;
 }
-.selected-navBar-Container {
+#selected {
     background-color: darkgreen;
 }
 .navBar-Text {
@@ -53,3 +57,29 @@ a:visited {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     justify-content: center;
 } 
+
+
+@media (width < 600px) {
+    .navBar {
+        width: 100vw;
+        justify-content: space-evenly;
+    }
+    /* .navBar-Container {
+        text-align: center;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    } */
+    .navBar-Text {
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .main-text-container {
+        font-size: 10px;
+    }
+    img {
+        position: relative;
+        top: 5vh;
+        right: 6vw;
+        width: 60vw;
+    }
+}
