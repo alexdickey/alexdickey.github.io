@@ -46,7 +46,7 @@ a:visited {
     background-color: darkgreen;
 }
 .navBar-Text {
-    font-size: 60px;
+    font-size: 30px;
     color: black;
 }
 .experience-container {
@@ -64,7 +64,7 @@ a:visited {
     text-align: center;
     border-radius: 5px;
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .item-image {
@@ -84,7 +84,7 @@ img ,.item-image {
     max-height: 100%;
 }
 h2, .item-image {
-    font-size: 120px;
+    font-size: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 @media (width < 600px) {
